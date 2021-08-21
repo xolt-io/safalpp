@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>safalpp</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="flex flex-align-center">
+      <div class="logo-wrapper flex flex-align-center flex-justify-center">
+        <!-- <img src="assets/images/logo-primary.svg" alt="" /> -->
+        <img
+          src="assets/images/logo-secondary.png"
+          alt=""
+          class="logo-top-nav"
+        />
+      </div>
+      <input
+        type="checkbox"
+        name="nav-bar-toggle"
+        id="nav-bar-toggle"
+        class="nav-bar-toggle"
+      />
+
+      <div class="hamburger">
+        <div class="hamburger-slice1"></div>
+        <div class="hamburger-slice2"></div>
+      </div>
+
+      <div class="nav-top-items flex">
+        <a class="nav-top-item" href="./index.html">Home</a>
+        <a class="nav-top-item" href="./products.html">Products</a>
+        <a class="nav-top-item" href="./aboutus.html">About Us</a>
+        <a class="nav-top-item" href="./contact.html">Contact</a>
+      </div>
+    </nav>
+    <main>
+      <section class="contact-form-section flex flex-align-center">
+        <h2 class="section-head">Contact Us</h2>
+
+        <form class="form" id="form">
+          <div class="inputContainer br10">
+            <!-- first name -->
+            <div class="inputdiv">
+              <input
+                type="text"
+                name="first name"
+                title="first name"
+                class="input fn"
+                id="firstname"
+                placeholder="First Name"
+              />
+              <i class="erroricon"
+                ><img src="/images/icon-error.svg" alt=""
+              /></i>
+              <p class="errormsg">First Name cannot be empty</p>
+            </div>
+            <!-- last name -->
+            <div class="inputdiv">
+              <input
+                type="text"
+                name="last name"
+                title="last name"
+                class="input ln"
+                id="lastname"
+                placeholder="Last Name"
+              />
+              <i class="erroricon"
+                ><img src="/images/icon-error.svg" alt=""
+              /></i>
+              <p class="errormsg">Last Name cannot be empty</p>
+            </div>
+            <!-- email -->
+            <div class="inputdiv">
+              <input
+                type="email"
+                name="email"
+                title="email"
+                class="input email"
+                placeholder="Email"
+                id="email"
+              />
+              <i class="erroricon"
+                ><img src="/images/icon-error.svg" alt=""
+              /></i>
+              <p class="errormsg">Email cannot be empty</p>
+              <p class="errornotemail">Looks like this is not an email</p>
+            </div>
+            <!-- password -->
+            <div class="inputdiv">
+              <input
+                type="text"
+                name="mobile"
+                title="mobile"
+                class="input pass"
+                id="mobile"
+                placeholder="Mobile no."
+              />
+              <i class="erroricon"
+                ><img src="/images/icon-error.svg" alt=""
+              /></i>
+              <p class="errormsg">mobile cannot be empty</p>
+            </div>
+            <!-- submit button -->
+            <div class="inputdiv">
+              <button
+                value="submit"
+                name="submit"
+                title="submit"
+                type="submit"
+                id="submit"
+                class="btn"
+              >
+                Book a call
+              </button>
+            </div>
+            <div class="inputdiv terms">
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <section class="footer flex">
+        <div class="brand-info flex">
+          <img src="assets/images/logo-secondary.png" alt="" />
+          <a href="mailto: " class="contact-mail">mail@mail.com</a>
+          <p class="address">
+            Block no.29, Village Naj, Naj- Pirana Road, Taluka Daskroi, Dist
+            Ahmedabad-382425
+          </p>
+        </div>
+        <div class="footer-nav-wrapper">
+          <div class="footer-nav-head">Navigation</div>
+          <a class="footer-nav-item" href="./index.html">Home</a>
+          <a class="footer-nav-item" href="./products.html">Products</a>
+          <a class="footer-nav-item" href="./aboutus.html">About Us</a>
+          <a class="footer-nav-item" href="./contact.html">Contact</a>
+        </div>
+        <div class="get-in-touch">
+          <div class="get-in-touch-head">Get in Touch</div>
+          <a class="get-in-touch-item facebook">Get in Touch</a>
+          <a class="get-in-touch-item twitter">Get in Touch</a>
+          <a class="get-in-touch-item social-media">Get in Touch</a>
+        </div>
+      </section>
+      <footer>
+        <div class="copyright">© 2021 All Rights Reserved</div>
+      </footer>
+    </main>
+  </body>
+</html>
